@@ -33,7 +33,7 @@
                                     <color key="titleColor" red="0.53333333329999999" green="0.14117647059999999" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="myButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vfw-vy-mky"/>
+                                    <action selector="messageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pr6-KX-v7e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -41,7 +41,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="myMessage" destination="OI5-wy-uVY" id="6CC-PB-Jjf"/>
+                        <outlet property="messageLabel" destination="OI5-wy-uVY" id="5c1-RT-laa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
